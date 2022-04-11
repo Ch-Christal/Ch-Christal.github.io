@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUIBE</title>
+</head>
+<style>
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+            Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimSun, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: aliceblue;
+    }
+
+    .container {
+        width: 100%;
+        margin: 0;
+    }
+
+    .container1 {
+        width: 100%;
+        margin: 0;
+    }
+
+    .container2 {
+        width: 100%;
+        margin: 0;
+    }
+
+    .container3 {
+        width: 100%;
+        margin: 0;
+    }
+
+    .bluehead {
+        margin: 0 auto;
+        width: 100%;
+        height: 70px;
+        background-color: rgb(17, 62, 113);
+    }
+
+    /*
+    .lword1 {
+        display: flex;
+        gap: 10px;
+    }
+
+    .lcard {
+        flex-direction: column;
+        width: 80px;
+        height: 30px;
+        background-color: white;
+        justify-content: flex-start;
+    }
+
+    .rcard {
+        flex-direction: column-reverse;
+        width: 80px;
+        height: 30px;
+        background-color: white;
+        justify-content: flex-end;
+    }*/
+
+    .whitehead {
+        width: 100%;
+        height: 150px;
+        background-color: white;
+    }
+
+    .headline {
+        display: flex;
+        width: auto;
+        height: 200px;
+        /*background-color: rgb(216, 215, 213);*/
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .headline .container{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 50px;
+    }
+    .card_5{
+        margin-top: 50px;
+        text-align: center;
+        width: 80%;
+        height: 100px;
+        justify-content: center;
+    }
+
+    .main .container {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+        gap: 40px;
+    }
+
+    .main1 {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        margin-bottom: 20px;
+    }
+
+    .main1 .container1 {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        background-color: rgb(238, 234, 240);
+        gap: 20px;
+    }
+
+    .main1 .container2 {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        background-color: rgb(249, 247, 250);
+        gap: 20px;
+    }
+
+    .card_1 {
+        height: 400px;
+        width: 100%;
+        background-color: rgb(247, 243, 243);
+        margin-bottom: 10px;
+        margin-right: 10px;
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        box-shadow: 3px 5px 5px rgb(140, 139, 139);
+    }
+
+    .card_2 {
+        height: 400px;
+        width: 100%;
+        background-color: rgb(210, 198, 198);
+        display: flex;
+        justify-content: center;
+        box-shadow: 3px 5px 5px rgb(134, 133, 133);
+    }
+
+    .card_3 {
+        height: 100px;
+        width: 100%;
+        background-color: rgb(208, 206, 206);
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        box-shadow: 3px 5px 5px rgb(135, 132, 132);
+    }
+    
+    .left2 {
+        display: flex;
+        flex-direction: column;
+        width: 260px;
+    }
+
+    .main2 {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        justify-content: space-between;
+    }
+
+    .main2 .container3 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 20px;
+        background-color: rgb(226, 224, 221);
+        box-shadow: 1px 2px 2px lightgrey;
+    }
+    .card_4 {
+
+        height: 100px;
+        width: 100%;
+        background-color: rgb(137, 171, 187);
+        box-shadow: 3px 3px 3px rgb(136, 135, 134);
+        position: relative;
+
+    }
+
+    .footer {
+        background-color: rgb(151, 179, 206);
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer .container {
+        height: 40px;
+        background-color: rgb(69, 119, 160);
+    }
+</style>
+
+<body>
+    <div class="bluehead"></div>
+    <div class="whitehead"></div>
+    <hr>
+    <div class="headline">
+        <div class="card_5"><h1>校园要闻</h1></div>
+    </div>
+
+    <div class="main">
+        <div class="container">
+            <div class="card_1"></div>
+            <div class="card_1">
+                <div class="card_2"></div>
+                <div class="card_2"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card_1">
+                <div class="card_2"></div>
+                <div class="card_2"></div>
+            </div>
+            <div class="card_1"></div>
+        </div>
+    </div>
+    <div class="headline">
+       <div class="container">
+        <div class="card_5"><h1>新闻快讯</h1></div>
+        <div class="card_5"><h1>媒体资讯</h1></div>
+       </div>
+    </div>
+    <div class="main1">
+        <div class="container1">
+            <div class="card_3"></div>
+            <div class="card_3"></div>
+            <div class="card_3"></div>
+            <div class="card_3"></div>
+        </div>
+        <div class="container2">
+            <div class="card_3"></div>
+            <div class="card_3"></div>
+            <div class="card_3"></div>
+            <div class="card_3"></div>
+        </div>
+    </div>
+    <div class="headline">
+        <div class="container">
+            <div class="card_5"><h1>科研动态</h1></div>
+            <div class="card_5"><h1>精彩影像</h1></div>
+            <div class="card_5"><h1>专题网站</h1></div>
+        </div>
+    </div>
+    <div class="main2">
+        <div class="container3">
+            <div class="card_4"></div>
+            <div class="card_4"></div>
+            <div class="card_4"></div>
+            <div class="card_4"></div>
+            <div class="card_4"></div>
+        </div>
+        <div class="container3"></div>
+        <div class="container3"></div>
+    </div>
+
+    </div>
+    <div class="footer">
+        <div class="container"></div>
+    </div>
+</body>
+
+</html>
