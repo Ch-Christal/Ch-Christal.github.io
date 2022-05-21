@@ -1,0 +1,245 @@
+body {
+    margin: 0;
+    color: #ffffff;
+    background-color: #c191d9ae;
+  }
+
+  .main {
+    display: flex;
+  position: relative;
+  flex-direction: row;
+  }
+
+
+  .nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #222930;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .gelleryicon {
+    width: 22px;
+    position: absolute;
+    left: 20px;
+    bottom: 30px;
+  }
+
+  .music {
+    width: 12px;
+    position: absolute;
+    right: 45px;
+    top: 18px;
+  }
+
+  .textgallery {
+    font-family: Sofia;
+    font-size: 40px;
+    font-weight: bolder;
+    position: absolute;
+    left: 58px;
+    top: 10px;
+  }
+
+  .nav-list {
+    margin-top: 20px;
+  }
+
+  .nav-list ul {
+    height: 39px;
+  }
+
+  .nav-list li {
+    line-height: 39px;
+    list-style-type: none;
+    width: 100px;
+    float: left;
+  }
+
+  .nav-list li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 17px;
+  }
+
+  .nav-list li:hover {
+    background: url(../img/nav_hover.jpg);
+  }
+
+  
+  .Impression {
+    font-weight: bolder;
+    -webkit-text-stroke: 2px #ffffff;
+    color: transparent;
+    font-size: 90px;
+    position: absolute;
+    top: 300PX;
+    right: 400px;
+
+  }
+
+  .textgallery {
+    font-family: Sofia;
+    font-size: 40px;
+    font-weight: bolder;
+    position: absolute;
+    left: 58px;
+    top: 10px;
+    color: #ffffff;
+  }
+
+  .leftt {
+    float: right;
+    margin-top:210px;
+    margin-left: 120px;
+    height: 750px;
+    width: 700px;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+.leftt2{
+    width: 400px;
+    margin: 0 120px 0 160px;
+}
+
+  .rightt {
+    
+    float: left;
+ margin: 150px 0 0 100px;
+    background-color: rgba(127, 255, 212, 0);
+ 
+    margin-bottom: 10px;
+    /*ichiwaiidesu*/
+    position: relative;
+    text-align: center;
+  }
+
+  .rightt2{
+    float: right;
+    height: 400px;
+    width: 1000px;
+    color: #fff;
+    margin-bottom: 250px;
+    margin-left: 300px;
+    
+  }
+
+
+  .h1 {
+    color: aliceblue;
+  }
+
+  .circle {
+    height: 400px;
+    width: 300px;
+    background-color: #f83848;
+    margin-top:60px;
+    margin-left: 60px;
+    /* z-index: 99; */
+    border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+
+  }
+  .name{
+    position: absolute;
+    left: 390px;
+    font-size: 15px;
+    font-weight: light;
+  }
+  .footer {
+    width: auto;
+    height: 150px;
+    background-attachment: fixed;
+    background-color: rgb(29, 26, 26);
+  }
+
+  /*van gogh 盒子*/
+  .team-section {
+    height: 70vh;
+    display: flex;
+    margin-top: 100px;
+  }
+
+  .team-section-1 {
+    height: 100vh;
+    display: flex;
+
+  }
+
+  .team-section {
+    height: 70vh;
+    display: flex;
+    margin-top: 100px;
+  }
+
+  .person {
+    flex: 1;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    transition: .6s;
+  }
+
+  .person:hover {
+    flex: 3;
+  }
+
+  .person-pic {
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    transform: translatex(-50%);
+    filter: grayscale(5%);
+    transition: .3s;
+  }
+  .person-pic-1 {
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    transform: translatex(-50%);
+    transition: .3s;
+}
+
+  .person-info {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+  }
+  
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #F5F5F5;
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #F5F5F5;
+  border-radius: 10px;
+
+}
+
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-image: -webkit-gradient(linear,
+      left bottom,
+      left top,
+      color-stop(0.44, rgb(122, 153, 217)),
+      color-stop(0.72, rgb(73, 125, 189)),
+      color-stop(0.86, rgb(28, 58, 148)));
+
+}
+.vc{
+    
+    margin-bottom: 180px;
+}
