@@ -1,0 +1,374 @@
+body {
+    font-family: "arial";
+    font-size: 13px;
+    font-weight:100;
+    color: rgb(240, 234, 234);
+    background-color:#faf8f8;
+}
+  .containers{
+    width: 100%;
+    justify-content: center;
+  }
+  .boxxxx{
+    width: 100%;
+  }
+  /*头*/
+  .nav{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background-color:#210a08fe;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .gelleryicon{
+    width: 22px;
+    position: absolute;
+    left: 28px;
+    top:19px;
+  }
+  .music{
+    width: 12px;
+    position: absolute;
+    right: 45px;
+    top: 18px;
+  }
+  .textgallery{
+    font-family: "宋体";
+    font-size: 30px;
+    font-weight: bolder;
+    position: absolute;
+    left: 58px;
+    top: 8px;
+  }
+  .nav-list{
+    margin-top: 10px;
+    font-family: "宋体";
+    font-size: medium;
+  }
+  .nav-list ul{
+      height:39px;
+  }
+  .nav-list li{
+      line-height:39px;
+      list-style-type: none;
+      width:100px;
+    float: left;
+  }
+  .nav-list li a{
+      font-size:18px;
+      text-decoration: none;
+      color:rgb(255, 255, 255);
+      margin-left:17px;
+  }
+  .nav-list ul li a:hover{
+      background:url(../img/nav_hover.png);
+      transition: all 0.2s;
+  }
+
+  /*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+  ::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+  }
+  
+  /*定义滚动条轨道 内阴影+圆角*/
+  ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+  
+  }
+  
+  /*定义滑块 内阴影+圆角*/
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-image: -webkit-gradient(linear,
+        left bottom,
+        left top,
+        color-stop(0.44, rgb(122, 153, 217)),
+        color-stop(0.72, rgb(73, 125, 189)),
+        color-stop(0.86, rgb(28, 58, 148)));
+  
+  }
+  
+  .main{
+    width: 80%;
+    background-color:#f8f9fa;
+    justify-content: center;
+    margin-left: 10%;
+  }
+  .container-1 {
+    width: 680px;
+    height: 480px;
+    margin:100px 120px 40px 80px;
+    justify-content: center;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .Impression{
+    font-weight: bolder;
+    -webkit-text-stroke:2px #ffffff;
+    color: transparent;
+    font-size:190px;
+    position: absolute;
+    top: 200PX;
+    right: 300px;
+    
+  }
+  
+  .header {
+    width: 100%;
+    background-color: rgb(33, 32, 32);
+    height: 50px;
+    position: fixed;
+    z-index: 1;
+  }
+  
+  .maintextbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .mainbox {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    position: relative;
+  
+  }
+  .rl-color{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    margin: 2%;
+
+  }
+  .rl-color2{
+    display: flex;
+    flex-direction: row;
+    gap: 160px;
+    margin: 2%;
+ 
+  }
+.left{
+  width: 380px;
+  margin-top: 100px;
+}
+
+.right{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  gap: 40px;
+  margin-top: 80px;
+  background-color: #F5F5F5;
+}
+
+
+.right1{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  gap: 40px;
+  margin-top: 80px;
+  background-color: #F5F5F5;
+}
+
+
+.longcolor{
+  width: 100px;
+  height: 540px;
+  background-color: #282010;
+}
+.rowcolor{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.colorbox{
+  width: 400px;
+  height: 120px;
+  background-color:#d9dee4
+}
+  span {
+    text-align: center;
+  }
+  
+  .boxes {
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    justify-content: center;
+    gap: 12px;
+    
+  }
+  
+  .picboxes {
+    width: 400px;
+    height: 450px;
+    position: absolute;
+    right: 950px;
+    top: 150px;
+  }
+  .portrait{
+    width: 150px;
+    height: 150PX;
+    bottom:700px;
+    right: 500px;
+    position: absolute;
+  }
+  .potraittext{
+    width: 400px;
+    position: absolute;
+    right: 200px;
+  }
+  
+  .boxes-2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    justify-content: center;
+    gap: 8px;
+  
+  }
+  
+  .picboxes-2 {
+    width: 320px;
+    height: 400px;
+  }
+  
+  .imgboxstyle {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    border: #ffffff 5px solid;
+  }
+  
+  .textboxes {
+    width: auto;
+  }
+.footer{
+  background-color: #7a251bfe;
+  height: 200px;
+}
+  
+  /*图片处理*/
+  
+  
+  div.img_fd img:hover {
+  
+    -webkit-transform: scale(1.08, 1.08);
+  
+    -moz-transform: scale(1.08, 1.08);
+  
+    -transform: scale(1.08, 1.08);
+  
+    /*position:absolute;*/
+  
+  }
+  /*
+  
+  .wrap{
+    position: relative;
+    position: absolute;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+  }
+  .wrap-mask:after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    background-color: rgba(255, 255, 255, 0.852);
+    opacity: 0.2;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+  }
+  *遮罩*/
+  /*van gogh 盒子*/
+  
+  .team-section-1 {
+    height: 100vh;
+    display: flex;
+    background-color: #7a251bfe;
+  
+  }
+  
+  .team-section {
+    height: 70vh;
+    display: flex;
+    margin-top: 100px;
+  }
+  
+  .person {
+    flex: 1;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    transition: .6s;
+  }
+    .person:hover {
+        flex: 3;
+    }
+  
+    .person-pic {
+        position: absolute;
+        height: 100%;
+        left: 50%;
+        transform: translatex(-50%);
+        filter: grayscale(40%);
+        transition: .3s;
+    }
+    .person-pic-1 {
+      position: absolute;
+      height: 100%;
+      left: 50%;
+      transform: translatex(-50%);
+      filter: grayscale(10%);
+      transition: .3s;
+  }
+  
+  
+    .person-info{
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .thirbox{
+      width: 70%;
+      justify-content: center;
+    }
+
+  
+  /*放大图片*/
+  .content {
+    max-width: 660px;
+    margin: 0 auto;
+  }
+  
+  .content img {
+    max-width: 100%;
+  }
+  
+  @media (max-width: 800px) {
+    .content {
+    max-width: 100%;
+    margin: 20px;
+    }
+  }
+  .footer{
+    height: 20vh;
+    background-color:#210a08fe;
+  }
+  
