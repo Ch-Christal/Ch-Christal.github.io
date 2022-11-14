@@ -1,0 +1,161 @@
+.container_n {
+    background-color: rgb(114, 35, 35);
+    justify-content: center;
+    height: 99vh;
+    display: flex;
+}
+
+.team-section-1 {
+    width: 92%;
+    height: 80vh;
+    display: flex;
+    margin-top: 10vh;
+}
+
+.team-section {
+    height: 70vh;
+    display: flex;
+    margin-top: 100px;
+}
+
+.person {
+    flex: 1;
+    display: flex;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.pictext {
+    z-index: 10;
+    top: 100px;
+}
+
+
+.hide1 {
+    display: none;
+}
+.hide2 {
+    display: none;
+}
+.hide3 {
+    display: none;
+}
+.hide4 {
+    display: none;
+}
+.hide5 {
+    display: none;
+}
+
+.c1 {
+    position: fixed;
+    width: 400px;
+    height: 300px;
+    top: 90%;
+    left: 6%;
+    margin-left: 50px;
+    z-index: 100;
+
+}
+
+.c2 {
+    position: fixed;
+    width: 400px;
+    height: 300px;
+    top: 90%;
+    left: 25%;
+    margin-left: 50px;
+    z-index: 100;
+
+}
+
+.c3 {
+    position: fixed;
+    width: 400px;
+    height: 300px;
+    top: 90%;
+    left: 42%;
+    margin-left: 50px;
+    z-index: 100;
+
+}
+
+.c4 {
+    position: fixed;
+    width: 400px;
+    height: 300px;
+    top: 90%;
+    left: 62%;
+    margin-left: 50px;
+    z-index: 100;
+
+}
+.c5 {
+    position: fixed;
+    width: 400px;
+    height: 300px;
+    top: 90%;
+    left: 80%;
+    margin-left: 50px;
+    z-index: 100;
+
+}
+
+
+#modal11 p{
+margin-left: 14px;
+}
+#modal12 p{
+margin-left: 14px;
+}#modal13 p{
+margin-left: 14px;
+}#modal14 p{
+margin-left: 14px;
+}#modal15 p{
+margin-left: 14px;
+}
+
+
+
+/*cover.css*/
+
+.main {
+    display: flex;
+    position: relative;
+    background-color: aliceblue;
+}
+
+.headline {
+
+    height: 200px;
+    top: 35%;
+    left: 29%;
+    display: flex;
+    position: fixed;
+}
+
+.headline h1 {
+    font-weight: 300;
+    font-size: 180px;
+    font-weight: bolder;
+    -webkit-text-stroke: 2px #7d0d0d;
+    color: transparent;
+
+}
+
+.headline2 {
+    top: 59%;
+    left: 45%;
+    display: flex;
+    position: fixed;
+}
+
+.headline2 p {
+    font-weight: 30;
+    font-size: 30px;
+    font-weight: bold;
+    -webkit-text-stroke: 2px #711010;
+    color: transparent;
+}
