@@ -28,6 +28,7 @@ function Hide4() {
 function Hide5() {
     document.getElementById('modal15').classList.add('hide5');
 }
+
 function check1() {
     var username = document.getElementById("uname1");
     if (uname1.value == "赤" ) {
