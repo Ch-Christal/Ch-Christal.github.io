@@ -1,0 +1,43 @@
+
+/*cover.css*/
+
+
+.main1 {
+    display: flex;
+    position: relative;
+    background-color: aliceblue;
+}
+
+.headline {
+
+    height: 200px;
+    top: 30%;
+    left: 25%;
+    display: flex;
+    position: fixed;
+}
+
+.headline h1 {
+    font-weight: 300;
+    font-size: 160px;
+    font-weight: bolder;
+    -webkit-text-stroke: 2px #7d0d0d;
+    color: transparent;
+
+}
+
+.headline2 {
+    top: 59%;
+    left: 45%;
+    display:flex;
+    position: fixed;
+}
+
+.headline2 p {
+    font-weight: 30;
+    font-size: 30px;
+    font-weight: bold;
+    -webkit-text-stroke: 2px #711010;
+    color: transparent;
+}
+
