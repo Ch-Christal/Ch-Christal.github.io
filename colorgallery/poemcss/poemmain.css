@@ -1,0 +1,279 @@
+*{
+    background-color:  rgb(114, 35, 35);
+}
+.container_n {
+    background-color: rgb(114, 35, 35);
+    justify-content: center;
+    height: 90vh;
+    display: flex;
+}
+
+.team-section-1 {
+    width: 89%;
+    height: 89vh;
+    display: flex;
+    margin-top: 13vh;
+}
+
+.team-section {
+    height: 70vh;
+    display: flex;
+    margin-top: 100px;
+}
+
+.person {
+    flex: 1;
+    height:71.5vh;
+    display: flex;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.pictext {
+    z-index: 10;
+    top: 100px;
+}
+
+
+.hide1 {
+    display: none;
+}
+.hide2 {
+    display: none;
+}
+.hide3 {
+    display: none;
+}
+.hide4 {
+    display: none;
+}
+.hide5 {
+    display: none;
+}
+
+.c1 {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    top: 87%;
+    left: 9%;
+    margin-left: 50px;
+    z-index: 100;
+
+}
+
+.c2 {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    top: 87%;
+    left: 29%;
+    margin-left: 50px;
+    z-index: 100;
+
+}
+
+.c3 {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    top: 87%;
+    left: 45.3%;
+    margin-left: 50px;
+    z-index: 100;
+
+}
+
+.c4 {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    top: 87%;
+    left: 64%;
+    margin-left: 50px;
+    z-index: 100;
+
+}
+.c5 {
+     position: absolute;
+    width: 400px;
+    height: 300px;
+    top: 87%;
+    left: 81%;
+    margin-left: 50px;
+    z-index: 100;
+
+}
+
+input[type=text] {
+    width: 50px;
+    height: 30px;
+    color: black;
+    font-size: 30px;
+    border:1px solid #040d0d;
+    text-align: center;
+    font-family: "隶书";
+    font-weight: bolder;
+    background-color: transparent;
+    border-radius: 30%;
+    text-transform: uppercase;
+    
+    -webkit-box-shadow: 0 0 0 1000px  rgb(114, 35, 35)inset;
+  }
+
+  input[type=button] {
+    color: rgb(21, 5, 5);
+    font-size: 15px;
+    text-align: center;
+    font-family: "隶书";
+    font-weight: bolder;
+    background-color: transparent;
+  }
+ 
+ 
+
+
+
+#modal11 p{
+margin-left: -15px;
+}
+#modal12 p{
+margin-left: -15px;
+}#modal13 p{
+margin-left: -15px;
+}#modal14 p{
+margin-left: -15px;
+}#modal15 p{
+margin-left: -15px;
+}
+
+
+.footer {
+  margin-top: 40px;
+  background-color: #7d7d7e00;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+   }
+    
+   .footer .container {
+  background-color: #7d7d7e00;
+  display: flex;
+   }
+    
+   .containerr {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+   }
+    
+   #neon-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+   }
+    
+   .btn {
+  border: 1px solid;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 30px;
+  padding: 20px 40px;
+  font-weight: 200;
+  margin-left: 60px;
+  margin-right: 60px;
+   }
+    
+   .btn2 {
+  border: 1px solid;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 30px;
+  padding: 20px 40px;
+  font-weight: 200;
+  background-color: #4cc9f0;
+  /* -webkit-box-shadow: 10px 10px 99px 1px #4cc9f0; */
+  /* -moz-box-shadow: 10px 10px 99px 1px #4cc9f0; */
+  /* box-shadow: 10px 10px 99px 1px #4cc9f0; */
+  color: white;
+  border: 0;
+  margin-left: 60px;
+  margin-right: 60px;
+   }
+    
+   .one {
+  color: #4cc9f0;
+
+  border: 2px solid #4cc9f0;
+   }
+    
+   .two {
+  color: #f038ff;
+
+  border: 2px solid #f038ff;
+   }
+    
+   .three {
+  color: #b9e769;
+
+  border: 2px solid #b9e769;
+   }
+    
+   .four {
+  color: #ffe836;
+
+  border: 2px solid #ffe836;
+   }
+
+
+
+
+
+
+
+/*cover.css*/
+
+.main {
+    display: flex;
+    position: relative;
+    background-color: aliceblue;
+}
+
+.headline {
+
+    height: 200px;
+    top: 87%;
+    left: 29%;
+    display: flex;
+    position: fixed;
+}
+
+.headline h1 {
+    font-weight: 300;
+    font-size: 180px;
+    font-weight: bolder;
+    -webkit-text-stroke: 2px #7d0d0d;
+    color: transparent;
+
+}
+
+.headline2 {
+    top: 59%;
+    left: 89%;
+    display:9flex;
+    position: fixed;
+}
+
+.headline2 p {
+    font-weight: 30;
+    font-size: 30px;
+    font-weight: bold;
+    -webkit-text-stroke: 2px #711010;
+    color: transparent;
+}
+
+
