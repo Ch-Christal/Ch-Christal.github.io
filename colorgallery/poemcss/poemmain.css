@@ -1,9 +1,11 @@
 * {
-    background-color: rgb(114, 35, 35);
+    /* background-color: rgb(114, 35, 35); */
+    background-color: rgb(121, 118, 118);
+
 }
 
 .container_n {
-    background-color: rgb(114, 35, 35);
+    background-color: rgb(121, 118, 118);
     justify-content: center;
     height: 89vh;
     display: flex;
@@ -61,7 +63,7 @@
     position: absolute;
     width: 400px;
     height: 300px;
-    top: 90%;
+    top: 88%;
     left: 8%;
     margin-left: 50px;
     z-index: 100;
@@ -72,7 +74,7 @@
     position: absolute;
     width: 400px;
     height: 300px;
-    top: 90%;
+    top: 88%;
     left: 27%;
     margin-left: 50px;
     z-index: 100;
@@ -83,7 +85,7 @@
     position: absolute;
     width: 400px;
     height: 300px;
-    top: 90%;
+    top: 88%;
     left: 44%;
     margin-left: 50px;
     z-index: 100;
@@ -94,7 +96,7 @@
     position: absolute;
     width: 400px;
     height: 300px;
-    top: 90%;
+    top: 88%;
     left: 62%;
     margin-left: 50px;
     z-index: 100;
@@ -105,7 +107,7 @@
     position: absolute;
     width: 400px;
     height: 300px;
-    top: 90%;
+    top: 88%;
     left: 81%;
     margin-left: 50px;
     z-index: 100;
@@ -124,11 +126,11 @@ input[type=text] {
     background-color: transparent;
     border-radius: 30%;
     text-transform: uppercase;
-    -webkit-box-shadow: 0 0 0 1000px rgb(114, 35, 35)inset;
+    -webkit-box-shadow: 0 0 0 1000px rgb(121, 118, 118)inset;
 }
 
 input[type=button] {
-    color: rgb(114, 35, 35);
+    color: rgb(121, 118, 118);
     font-size: 15px;
     text-align: center;
     font-family: "arial";
@@ -181,6 +183,8 @@ input[type=button] {
     width: 100%;
     margin: 0;
     padding: 0;
+    position: absolute;
+    left: 10%;
 }
 
 #neon-btn {
@@ -224,9 +228,9 @@ input[type=button] {
 }
 
 .two {
-    color: #f038ff;
+    color: #b853c1;
 
-    border: 2px solid #f038ff;
+    border: 2px solid #b853c1;
 }
 
 .three {
@@ -239,5 +243,10 @@ input[type=button] {
     color: #4cc9f0;
 
     border: 2px solid #4cc9f0;
+}
+#music_btn{
+    position: absolute;
+    top:-10%;
+    left: 80%;
 }
 
